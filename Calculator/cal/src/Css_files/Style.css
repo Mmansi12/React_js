@@ -1,0 +1,81 @@
+.tbl{
+    background-color: #1b1b1b;
+    border-radius: 1.5rem;
+    width: 30% !important;
+}
+table{
+    border-collapse: separate !important;
+    border-spacing: 0 1em;
+}
+table tr td{
+    width: fit-content;
+}
+button{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 1.8rem!important;
+    border: none;
+    background-color: #414345;
+    font-size: 22px;
+    color: #fff;
+}
+.equal{
+    background-color: green;
+}
+.sign{
+    font-size: 30px;
+    font-weight: 700;
+    color: green;
+}
+h5,h6{
+    height: 2rem;
+    width: 100%;
+    color: #fff;
+}
+h6{
+    font-size: 22px;
+}
+h2{
+    width: 100%;
+    color: rgb(177, 92, 92);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+@media  screen and (min-width:1391px) {
+
+    .tbl{
+        width: 30% !important;
+    }
+}
+@media screen and (min-width:1000px) and (max-width: 1390px)
+{
+.tbl{
+    width: 35% !important;
+}
+}
+@media screen and (min-width:750px) and (max-width: 999px)
+{
+.tbl{
+    width: 55% !important;
+}
+}
+@media screen and (min-width:462px) and (max-width: 749px)
+{
+.tbl{
+    width: 70% !important;
+}
+}
+@media screen and (max-width: 461px)
+{
+.tbl{
+    width: 90% !important;
+}
+table{
+    width: 60% !important;
+}
+button{
+    width: 2rem;
+    height: 2rem;
+}
+}

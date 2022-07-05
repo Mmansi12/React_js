@@ -1,0 +1,121 @@
+:root{
+    --shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --bg_color:rgb(250, 248, 248);
+    --font_family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  body{
+    background: whitesmoke;
+  }
+  .container div{
+    margin-left: 150px;
+    text-align: left!important;
+  }
+  .row{
+    margin-top: 15px;
+  }
+  .row h2{
+    --font_family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #121212;
+  }
+  label{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: var(--font_family);
+  }
+  .row input{
+    padding: 12px;
+    margin-top: 10px;
+    box-shadow: var(--shadow);    
+    border-style: hidden;
+    background-color: var(--bg_color);
+    border-radius: 10px;
+    width: 80%;
+    font-size: 16px;
+  }
+  input:focus{
+    outline: none;
+  }
+  table{
+    margin: auto;
+    width: 90%;
+    line-height: 30px;
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 20px;
+    border-collapse: separate;
+    border-style: none;
+  }
+  table tr th{
+    color: #121212;
+  }
+  table tr,table tr th,table tr td{
+    border: 1px solid black;
+    padding: 5px 0;
+    justify-content: center;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    box-shadow: var(--shadow);
+    background-color: var(--bg_color);
+    border-style: none;
+  }
+  .btn_edit , .btn_delete ,.btn_search{
+    padding: 10px;
+    border: none;
+    box-shadow: var(--shadow);    
+    border-radius: 10px;
+    margin: 0px 5px;
+    width: 80px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+  .btn_edit{
+    background-color: blue;
+    color: var(--bg_color);
+  }
+  .btn_delete{
+    background-color: red;
+    color: var(--bg_color);
+  }
+  .btn_search{
+    background-color:  rgb(109, 104, 104);
+    color: white;
+    width: 300px;
+  }
+  .btn_submit{
+    padding: 10px;
+    display: inline-block;
+    width: 180px;
+    border: none;
+    border-radius: 13px;
+    background-color: rgb(109, 104, 104);
+    font-size: 25px;
+    color: white;
+    font-family:var(--font_family) ;
+    letter-spacing: 2px;
+  }
+  span{
+    color: red;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .search{
+    width: 100%;
+    margin-top: 0 !important;
+  }
+  .heading_h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+  }
+  .label-search{
+    color: brown;
+    font-size: 30px;
+  }
+  .search-table{
+    margin-top: 10px;
+  }
